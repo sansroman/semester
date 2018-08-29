@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Target:</strong>
+  <%= @health.target %>
+</p>
+
+<p>
+  <strong>Exercise:</strong>
+  <%= @health.exercise %>
+</p>
+
+<p>
+  <strong>Birthday:</strong>
+  <%= @health.birthday %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @health.weight %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @health.height %>
+</p>
+
+<p>
+  <strong>Step:</strong>
+  <%= @health.step %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @health.user.email %>
+</p>
+
+<%= link_to 'Edit', edit_health_path(@health) %> |
+<%= link_to 'Back', healths_path %>

@@ -6,5 +6,16 @@
 //
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
+import "../styles/index"
+import "./hello_vue"
+import Rails from 'rails-ujs'
+// import 'activestorage'
+// import 'action_cable'
+Rails.start()
 
-console.log('Hello World from Webpacker')
+
+import $ from 'jquery'
+import 'bootstrap/dist/js/bootstrap'
+window.$ = $
+
+

@@ -1,0 +1,7 @@
+<h1>Pages#welcome</h1>
+<div id="app">
+  <p>data:{{name}}</p>
+</div>
+<% content_for :head do -%> 
+  <%= javascript_pack_tag 'hello_vue' %>
+<% end -%>
